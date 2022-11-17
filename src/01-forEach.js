@@ -27,7 +27,7 @@ function printAllSongTitles(songs) {
  *  //> ...
  */
 function printSongDetails(songs) {
-  songs.forEach(element => console.log(`${element.title} by ${element.artist}`))
+  songs.forEach(element => console.log(`${element.title} by ${element.artist}`));
 }
 
 /**
@@ -37,7 +37,7 @@ function printSongDetails(songs) {
 function printSongTitlesOverThreeMinutes(songs) {
   songs.forEach(element => 
     {if (element.runtimeInSeconds > 180) {
-      console.log(element.title)
+      console.log(element.title);
     }
     })
 }
